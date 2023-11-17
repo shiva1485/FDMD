@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- CSS File -->
+    <link rel="stylesheet" href="../CSS/index.css" />
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/dark-mode.css' rel='stylesheet'>
+    <script src="../JS/index.js"></script>
+    <!-- Chart.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <title>fdmd details</title>
+  </head>
+
+  <body>
+    <header>
+        <div class="logo left">
+          <div id="mySidenav" class="sidenav">
+            <a href="#overview">Overview</a>
+            <a href="">Location</a>
+            <a href="#">Device ID</a>
+            <a href="#">Device Status</a>
+            <a href="#voltage">Voltage</a>
+            <a href="#current">Current</a>
+            <a href="#">Raw Current Graph</a>
+            <a href="#">Power</a>
+            <a href="#"> Power Graph</a>
+            <a href="#"> Power Factor Graph</a>
+            <a href="#"> Reactive Power Graph</a>
+            <a href="#">Overall Result</a>
+            <a href="#">Settings</a>
+            <a href="#">Admins</a>
+            <a href="#">About us</a>
+          </div>
+          
+          <!-- Use any element to open the sidenav -->
+          <i id="menu" class="material-icons" onclick="toggleNav()" oncli>menu</i>
+          <img src="../Assests/Images/logo1.jpg" height="40px" width="100px"alt="your logo">
+        </div>
+        
+        <div class="search center">
+          <form action="">
+            <input type="text" placeholder="Search" />
+            <button><i class="material-icons">search</i></button>
+          </form>
+
+        </div>
+        
+        <div class="icons right">
+          <i></i>
+            <i class="icons right">  
+                <div class="current">
+              <div class="time" id="current-time" style="position: absolute;top: 20px;right: 70px;color: white;"></div>
+                </div></i>
+                <i><img src="../Assests/Images/indflag.jpg" width="50px" style="position: absolute;top: 12px;right:10px;"></i>
+                <i class="gg-dark-mode" style="color: #ffffff;position: absolute;top: 20px;right:250px;"></i>
+          
+          
+        </div>
+       </header>
+      <main >
+        
+        <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+        <div id="main">
+          <div id="overview">
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+            <h1>overview</h1>
+            
+            <p>lhcvbnl</p>
+            <p>lhcvbnl</p>
+            <p>lhcvbnl</p>
+            <p>lhcvbnl</p>
+          </div>
+          <div id ="voltage" >
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+            <h1>voltage</h1>
+            <i id="darkModeToggle" class="material-icons">brightness_4</i>
+            <p>judfbnk6rtfc</p>
+            <p>judfbnk6rtfc</p>
+            <p>judfbnk6rtfc</p>
+            <p>judfbnk6rtfc</p>
+          </div>
+          <div id ="current">
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+            <h1>current</h1>
+            <p>kjvmhbkhu</p>
+            <p>kjvmhbkhu</p>
+            <p>kjvmhbkhu</p>
+            <p>kjvmhbkhu</p>
+            <p>kjvmhbkhu</p>
+            <p>kjvmhbkhu</p>
+            <p>kjvmhbkhu</p>
+            <p>kjvmhbkhu</p>
+            <p>kjvmhbkhu</p>
+            <p>kjvmhbkhu</p>
+            <p>kjvmhbkhu</p>
+            <p>kjvmhbkhu</p>
+            <p>kjvmhbkhu</p>
+            <p>kjvmhbkhu</p>
+            <p>kjvmhbkhu</p><p>kjvmhbkhu</p>
+            <p>kjvmhbkhu</p>
+            <p>kjvmhbkhu</p>
+            <p>kjvmhbkhu</p>
+            <p>kjvmhbkhu</p>
+            <p>kjvmhbkhu</p>
+            <p>kjvmhbkhu</p>
+            <p>kjvmhbkhu</p>
+            <p>kjvmhbkhu</p>
+            <p>kjvmhbkhu</p>
+            <p>kjvmhbkhu</p>
+            <p>kjvmhbkhu</p>
+            <p>kjvmhbkhu</p><p>kjvmhbkhu</p><p>kjvmhbkhu</p><p>kjvmhbkhu</p>
+            <p>kjvmhbkhu</p><p>kjvmhbkhu</p><p>kjvmhbkhu</p><p>kjvmhbkhu</p>
+            <p>kjvmhbkhu</p><p>kjvmhbkhu</p><p>kjvmhbkhu</p><p>kjvmhbkhu</p>
+            <p>kjvmhbkhu</p><p>kjvmhbkhu</p><p>kjvmhbkhu</p><p>kjvmhbkhu</p><p>kjvmhbkhu</p>
+            <p>kjvmhbkhu</p><p>kjvmhbkhu</p><p>kjvmhbkhu</p><p>kjvmhbkhu</p>
+            <p>kjvmhbkhu</p><p>kjvmhbkhu</p><p>kjvmhbkhu</p><p>kjvmhbkhu</p><p>kjvmhbkhu</p>
+            <p>kjvmhbkhu</p><p>kjvmhbkhu</p><p>kjvmhbkhu</p><p>kjvmhbkhu</p>
+            <p>kjvmhbkhu</p><p>kjvmhbkhu</p><p>kjvmhbkhu</p><p>kjvmhbkhu</p>
+            
+          </div>
+        </div>
+        
+      </main>
+</body>
+</html>
+

@@ -1,0 +1,116 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  /* header section*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    padding: 15px;
+    background-color: #111;
+    position: fixed;
+  }
+  main {
+    height: calc(100vh - 70px);
+    display: flex;
+    background-color: white;
+  }
+  /* Sidebar */ 
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: -1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: white;
+}
+
+/* Position and style the close button (top right corner) */
+
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+  .left {
+    display: flex;
+    align-items: center;
+   }
+   
+   .left #menu {
+    padding: 0 7px;
+    cursor: pointer;
+   }
+   .search {
+    display: flex;
+   }
+   
+   .search form {
+    display: flex;
+    border: 2px solid #a2a2a2;
+    height: 45px;
+   }  
+   .search input {
+    width: 600px;
+    padding:10px;
+    border: 0;
+    height: 100%;
+    border-radius: 2px 0 0 2px
+  }
+  
+  input:focus {
+    outline: none;
+    border: 1px solid #ddd;
+  }
+  .search button {
+    height: 100%;
+    width: 60px;
+    border: none;
+  }
+  .search button:hover{
+    background-color: #343333;
+  }
+   
+  .material-icons{
+    color:#818181;
+  }
+  
+  .material-icons:hover{
+    color: white;
+  }

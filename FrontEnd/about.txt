@@ -1,0 +1,22 @@
+1. device id
+2. location details of the pole
+3. status of the device
+4. status of the street light
+5. power graph
+        -raw power graph
+        -power graph of observed deviations
+        -raw power graph
+6. voltage graph
+        -raw voltage graph
+7. current graph
+        -raw current graph
+8. pf(power factor) graph
+        -raw pf graph
+9. reactive power graph
+        -raw reactive power graph
+10. overall what is the result of the street light from about data
+
+1. breif details of the street light
+2. show more details of street light
+
+
